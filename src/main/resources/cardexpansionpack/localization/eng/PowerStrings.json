@@ -4,5 +4,13 @@
     "DESCRIPTIONS": [
       "Enemies with #yLock-On take #b75% more damage from Orbs rather than #b50%."
     ]
+  },
+  "${modID}:IterationPower": {
+    "NAME": "Iteration",
+    "DESCRIPTIONS": [
+      "Whenever you play a card this turn, trigger the passive ability of your next Orb.",
+      "Whenever you play a card this turn, trigger the passive ability of your next Orb #b",
+      " times."
+    ]
   }
 }

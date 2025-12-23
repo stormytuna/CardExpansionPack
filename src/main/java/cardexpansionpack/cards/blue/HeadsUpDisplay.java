@@ -68,7 +68,7 @@ public class HeadsUpDisplay extends BaseCard {
         @SpirePrefixPatch
         public static SpireReturn<Integer> patch(AbstractCreature target, int dmg) {
             if (AbstractDungeon.player.hasPower(HeadsUpDisplayPower.ID)) {
-                return SpireReturn.Return((int)((float)dmg * 1.75f));
+                return SpireReturn.Return((int)((float)dmg * MULTIPLIER));
             }
 
             return SpireReturn.Continue();

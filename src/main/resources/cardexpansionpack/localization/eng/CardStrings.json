@@ -10,5 +10,10 @@
   "${modID}:HeadsUpDisplay": {
     "NAME": "Heads-Up Display",
     "DESCRIPTION": "Apply !M! Lock-On to ALL enemies. NL Enemies with Lock-On take 75% more damage from Orbs rather than 50%."
+  },
+  "${modID}:Iteration": {
+    "NAME": "Iteration",
+    "DESCRIPTION": "Whenever you play a card this turn, trigger the passive ability of your next Orb. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Whenever you play a card this turn, trigger the passive ability of your next Orb."
   }
 }
