@@ -2,5 +2,9 @@
   "${modID}:Polarization": {
     "NAME": "Polarization",
     "DESCRIPTION": "Channel 1 Lightning. NL Apply !M! Lock-On."
+  },
+  "${modID}:TunnelVision": {
+    "NAME": "Tunnel Vision",
+    "DESCRIPTION": "Apply 99 Lock-On. NL Exhaust."
   }
 }
