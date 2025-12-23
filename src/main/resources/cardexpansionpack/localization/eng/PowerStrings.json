@@ -1,8 +1,8 @@
 {
-  "${modID}:PowerID": {
-    "NAME": "Ultimate Power",
+  "${modID}:HeadsUpDisplayPower": {
+    "NAME": "Heads-Up Display",
     "DESCRIPTIONS": [
-      "You are Very Cool and Strong."
+      "Enemies with #yLock-On take #b75% more damage from Orbs rather than #b50%."
     ]
   }
 }

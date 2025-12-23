@@ -6,5 +6,9 @@
   "${modID}:TunnelVision": {
     "NAME": "Tunnel Vision",
     "DESCRIPTION": "Apply 99 Lock-On. NL Exhaust."
+  },
+  "${modID}:HeadsUpDisplay": {
+    "NAME": "Heads-Up Display",
+    "DESCRIPTION": "Apply !M! Lock-On to ALL enemies. NL Enemies with Lock-On take 75% more damage from Orbs rather than 50%."
   }
 }
