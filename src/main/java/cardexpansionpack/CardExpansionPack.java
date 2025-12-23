@@ -1,10 +1,13 @@
 package cardexpansionpack;
 
+import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.interfaces.AddAudioSubscriber;
+import basemod.interfaces.EditCardsSubscriber;
 import basemod.interfaces.EditKeywordsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostInitializeSubscriber;
+import cardexpansionpack.cards.BaseCard;
 import cardexpansionpack.util.GeneralUtils;
 import cardexpansionpack.util.KeywordInfo;
 import cardexpansionpack.util.Sounds;
@@ -33,6 +36,7 @@ import java.util.*;
 
 @SpireInitializer
 public class CardExpansionPack implements
+        EditCardsSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
         AddAudioSubscriber,
@@ -120,6 +124,14 @@ public class CardExpansionPack implements
                 localizationPath(lang, "RelicStrings.json"));
         BaseMod.loadCustomStringsFile(UIStrings.class,
                 localizationPath(lang, "UIStrings.json"));
+    }
+
+    @Override
+    public void receiveEditCards() {
+        new AutoAdd(modID)
+            .packageFilter(BaseCard.class)
+            .setDefaultSeen(true)
+            .cards();
     }
 
     @Override
