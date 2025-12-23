@@ -12,5 +12,12 @@
       "Whenever you play a card this turn, trigger the passive ability of your next Orb #b",
       " times."
     ]
+  },
+  "${modID}:HardLightBarrierPower": {
+    "NAME": "Hard-Light Barrier",
+    "DESCRIPTIONS": [
+      "Whenever you play a #b0 cost card, gain #b",
+      " #yBlock."
+    ]
   }
 }

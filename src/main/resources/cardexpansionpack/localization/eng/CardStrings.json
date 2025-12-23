@@ -15,5 +15,9 @@
     "NAME": "Iteration",
     "DESCRIPTION": "Whenever you play a card this turn, trigger the passive ability of your next Orb. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Whenever you play a card this turn, trigger the passive ability of your next Orb."
+  },
+  "${modID}:HardLightBarrier": {
+    "NAME": "Hard-Light Barrier",
+    "DESCRIPTION": "Whenever you play a 0 cost card, gain !M! Block."
   }
 }
