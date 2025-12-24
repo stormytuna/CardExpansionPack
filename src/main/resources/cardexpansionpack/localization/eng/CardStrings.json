@@ -27,5 +27,9 @@
   "${modID}:Ping": {
     "NAME": "Ping",
     "DESCRIPTION": "Trigger the passive ability of all Orbs."
+  },
+  "${modID}:Dequeue": {
+    "NAME": "Dequeue",
+    "DESCRIPTION": "Deal !D! damage. NL Evoke your leftmost Orb."
   }
 }
