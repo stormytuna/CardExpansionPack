@@ -35,5 +35,10 @@
   "${modID}:Malware": {
     "NAME": "Malware",
     "DESCRIPTION": "Channel !M! Dark. NL Add a Void into your discard pile."
+  },
+  "${modID}:EventHorizon": {
+    "NAME": "Event Horizon",
+    "DESCRIPTION": "Evoke all Dark orbs. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Trigger the passive ability of all Dark orbs. NL Evoke all Dark orbs. NL Exhaust."
   }
 }
