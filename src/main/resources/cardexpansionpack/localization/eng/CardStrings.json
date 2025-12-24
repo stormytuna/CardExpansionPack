@@ -31,5 +31,9 @@
   "${modID}:Dequeue": {
     "NAME": "Dequeue",
     "DESCRIPTION": "Deal !D! damage. NL Evoke your leftmost Orb."
+  },
+  "${modID}:Malware": {
+    "NAME": "Malware",
+    "DESCRIPTION": "Channel !M! Dark. NL Add a Void into your discard pile."
   }
 }
