@@ -19,5 +19,13 @@
       "Whenever you play a #b0 cost card, gain #b",
       " #yBlock."
     ]
+  },
+  "${modID}:CryogenicsPower": {
+    "NAME": "Cryogenics",
+    "DESCRIPTIONS": [
+      "Whenever you #yEvoke a #yFrost Orb, draw #b",
+      " card.",
+      " cards."
+    ]
   }
 }

@@ -19,5 +19,9 @@
   "${modID}:HardLightBarrier": {
     "NAME": "Hard-Light Barrier",
     "DESCRIPTION": "Whenever you play a 0 cost card, gain !M! Block."
+  },
+  "${modID}:Cryogenics": {
+    "NAME": "Cryogenics",
+    "DESCRIPTION": "Whenever you Evoke a Frost Orb, draw 1 card."
   }
 }
