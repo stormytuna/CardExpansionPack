@@ -23,5 +23,9 @@
   "${modID}:Cryogenics": {
     "NAME": "Cryogenics",
     "DESCRIPTION": "Whenever you Evoke a Frost Orb, draw 1 card."
+  },
+  "${modID}:Ping": {
+    "NAME": "Ping",
+    "DESCRIPTION": "Trigger the passive ability of all Orbs."
   }
 }
