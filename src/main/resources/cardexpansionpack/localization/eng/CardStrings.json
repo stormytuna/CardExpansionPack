@@ -40,5 +40,10 @@
     "NAME": "Event Horizon",
     "DESCRIPTION": "Evoke all Dark orbs. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Trigger the passive ability of all Dark orbs. NL Evoke all Dark orbs. NL Exhaust."
+  },
+  "${modID}:PowerCell": {
+    "NAME": "Power Cell",
+    "DESCRIPTION": "Whenever you draw a Power card, gain [E].",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a Power card, gain [E]."
   }
 }

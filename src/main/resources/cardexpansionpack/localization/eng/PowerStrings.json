@@ -27,5 +27,13 @@
       " card.",
       " cards."
     ]
+  },
+  "${modID}:PowerCellPower": {
+    "NAME": "Power Cell",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yPower card, gain [B] ",
+      "Whenever you draw a #yPower card, gain [B] #b",
+      " times."
+    ]
   }
 }
