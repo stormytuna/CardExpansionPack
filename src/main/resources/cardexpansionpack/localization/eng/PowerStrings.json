@@ -35,5 +35,13 @@
       "Whenever you draw a #yPower card, gain [B] #b",
       " times."
     ]
+  },
+  "${modID}:FirewallPower": {
+    "NAME": "Firewall",
+    "DESCRIPTIONS": [
+      "The first time you draw a #yStatus card, #yExhaust it and draw #b1 card.",
+      "The first #b",
+      " times you draw a #yStatus card, #yExhaust it and draw #b1 card."
+    ]
   }
 }

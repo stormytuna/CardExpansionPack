@@ -45,5 +45,10 @@
     "NAME": "Power Cell",
     "DESCRIPTION": "Whenever you draw a Power card, gain [E].",
     "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a Power card, gain [E]."
+  },
+  "${modID}:Firewall": {
+    "NAME": "Firewall",
+    "DESCRIPTION": "The first time you draw a Status card each turn, Exhaust it and draw 1 card.",
+    "UPGRADE_DESCRIPTION": "The first two times you draw a Status card each turn, Exhaust it and draw 1 card."
   }
 }
