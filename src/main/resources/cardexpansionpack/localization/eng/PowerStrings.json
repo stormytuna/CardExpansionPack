@@ -49,5 +49,13 @@
     "DESCRIPTIONS": [
       "Whenever you play a card, #yUpgrade it for the rest of combat."
     ]
+  },
+  "${modID}:BetaTestingPower": {
+    "NAME": "Beta Testing",
+    "DESCRIPTIONS": [
+      "Whenever you channel an Orb, trigger the passive ability of that Orb once.",
+      "Whenever you channel an Orb, trigger the passive ability of that Orb #b",
+      " times."
+    ]
   }
 }
