@@ -43,5 +43,11 @@
       "The first #b",
       " times you draw a #yStatus card, #yExhaust it and draw #b1 card."
     ]
+  },
+  "${modID}:TrialAndErrorPower": {
+    "NAME": "Trial and Error",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, #yUpgrade it for the rest of combat."
+    ]
   }
 }
