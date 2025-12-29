@@ -86,5 +86,9 @@
     "NAME": "Ambrosia",
     "DESCRIPTION": "Draw !M! card. NL Upgrade any cards drawn for the rest of combat.",
     "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Upgrade any cards drawn for the rest of combat."
+  },
+  "${modID}:Jackpot": {
+    "NAME": "Jackpot",
+    "DESCRIPTION": "Draw X cards. NL Gain !M! [E]. NL Exhaust."
   }
 }
