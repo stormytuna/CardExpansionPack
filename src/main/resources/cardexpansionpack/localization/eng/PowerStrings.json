@@ -63,5 +63,11 @@
     "DESCRIPTIONS": [
       "Whenever you draw a card, #yUpgrade it."
     ]
+  },
+  "${modID}:RadiancePower": {
+    "NAME": "Radiance",
+    "DESCRIPTIONS": [
+      "Whenever you draw a card, deal damage equal to its cost to a random enemy."
+    ]
   }
 }
