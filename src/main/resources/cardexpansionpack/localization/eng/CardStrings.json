@@ -104,5 +104,9 @@
     "NAME": "Arcane Ward",
     "DESCRIPTION": "Ethereal. NL Prevent the next time you would lose HP. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Prevent the next time you would lose HP. NL Exhaust."
+  },
+  "${modID}:Dispel": {
+    "NAME": "Dispel",
+    "DESCRIPTION": "Remove all your Debuffs. NL Exhaust."
   }
 }
