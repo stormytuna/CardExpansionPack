@@ -77,5 +77,9 @@
   "${modID}:Salvage": {
     "NAME": "Salvage",
     "DESCRIPTION": "Put !M! cards from your discard pile into your hand."
+  },
+  "${modID}:Stockpile": {
+    "NAME": "Stockpile",
+    "DESCRIPTION": "Draw !M! cards. NL Increase the amount drawn by this card by 1 this combat."
   }
 }
