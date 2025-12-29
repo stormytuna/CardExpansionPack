@@ -90,5 +90,9 @@
   "${modID}:Jackpot": {
     "NAME": "Jackpot",
     "DESCRIPTION": "Draw X cards. NL Gain !M! [E]. NL Exhaust."
+  },
+  "${modID}:HiddenCache": {
+    "NAME": "Hidden Cache",
+    "DESCRIPTION": "At the start of your turn, draw !M! additional cards."
   }
 }
