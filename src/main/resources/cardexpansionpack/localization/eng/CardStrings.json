@@ -81,5 +81,10 @@
   "${modID}:Stockpile": {
     "NAME": "Stockpile",
     "DESCRIPTION": "Draw !M! cards. NL Increase the amount drawn by this card by 1 this combat."
+  },
+  "${modID}:Ambrosia": {
+    "NAME": "Ambrosia",
+    "DESCRIPTION": "Draw !M! card. NL Upgrade any cards drawn for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Upgrade any cards drawn for the rest of combat."
   }
 }

@@ -57,5 +57,11 @@
       "Whenever you channel an Orb, trigger the passive ability of that Orb #b",
       " times."
     ]
+  },
+  "${modID}:AmbrosiaPower": {
+    "NAME": "Ambrosia",
+    "DESCRIPTIONS": [
+      "Whenever you draw a card, #yUpgrade it."
+    ]
   }
 }
