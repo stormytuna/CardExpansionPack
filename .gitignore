@@ -5,3 +5,7 @@
 .factorypath
 .project
 .settings/
+
+# Other stuff
+workshop/README.md
+sendToDevs/
