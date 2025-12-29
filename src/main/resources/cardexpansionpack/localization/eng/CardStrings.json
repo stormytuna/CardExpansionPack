@@ -99,5 +99,10 @@
     "NAME": "Radiance",
     "DESCRIPTION": "Whenever you draw a card, deal damage equal to its cost to a random enemy.",
     "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a card, deal damage equal to its cost to a random enemy."
+  },
+  "${modID}:ArcaneWard": {
+    "NAME": "Arcane Ward",
+    "DESCRIPTION": "Ethereal. NL Prevent the next time you would lose HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Prevent the next time you would lose HP. NL Exhaust."
   }
 }
