@@ -65,5 +65,13 @@
     "NAME": "RNG",
     "DESCRIPTION": "Play the top X cards of your draw pile. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Play the top X+1 cards of your draw pile. NL Exhaust."
+  },
+  "${modID}:Zeal": {
+    "NAME": "Zeal",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity."
+  },
+  "${modID}:Bide": {
+    "NAME": "Bide",
+    "DESCRIPTION": "Your next Attack deals !M! additional damage."
   }
 }

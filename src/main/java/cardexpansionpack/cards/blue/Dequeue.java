@@ -21,7 +21,7 @@ public class Dequeue extends BaseCard {
     private static final CardStats INFO = new CardStats(
         CardColor.BLUE,
         CardType.ATTACK,
-        CardRarity.UNCOMMON,
+        CardRarity.COMMON,
         CardTarget.ENEMY,
         1
     );
