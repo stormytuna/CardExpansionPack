@@ -73,5 +73,9 @@
   "${modID}:Bide": {
     "NAME": "Bide",
     "DESCRIPTION": "Your next Attack deals !M! additional damage."
+  },
+  "${modID}:Salvage": {
+    "NAME": "Salvage",
+    "DESCRIPTION": "Put !M! cards from your discard pile into your hand."
   }
 }
