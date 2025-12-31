@@ -75,5 +75,13 @@
     "DESCRIPTIONS": [
       "At the end of your turn, ALL enemies lose HP equal to the number of cards #yRetained this turn."
     ]
+  },
+  "${modID}:EbbAndFlowPower": {
+    "NAME": "Ebb and Flow",
+    "DESCRIPTIONS": [
+      "The first time you #yScry each turn, draw #b1 card.",
+      "The first #b",
+      " times you #yScry each turn, draw #b1 card."
+    ]
   }
 }
