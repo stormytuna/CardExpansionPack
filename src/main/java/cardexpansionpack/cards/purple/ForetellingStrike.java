@@ -78,9 +78,6 @@ public class ForetellingStrike extends BaseCard {
                 int newDiscardSize = AbstractDungeon.player.discardPile.size();
                 int numStrikes = newDiscardSize - discardSize;
 
-                CardExpansionPack.logger.info("Old discard: " + discardSize);
-                CardExpansionPack.logger.info("New discard: " + newDiscardSize);
-
                 for (int i = 0; i < numStrikes; i++) {
                     DamageInfo damageInfo = new DamageInfo(AbstractDungeon.player, baseDamage, DamageType.NORMAL);
                     int chosenAttackIndex = AbstractDungeon.miscRng.random(POSSIBLE_ATTACK_EFFECTS.length - 1);
