@@ -126,5 +126,9 @@
   "${modID}:Prediction": {
     "NAME": "Prediction",
     "DESCRIPTION": "Scry !M!. NL Draw !${modID}:draw! cards."
+  },
+  "${modID}:ForetellingStrike": {
+    "NAME": "Foretelling Strike",
+    "DESCRIPTION": "Scry !M!. NL Deal !D! damage for each card discarded."
   }
 }
