@@ -69,5 +69,11 @@
     "DESCRIPTIONS": [
       "Whenever you draw a card, deal damage equal to its cost to a random enemy."
     ]
+  },
+  "${modID}:ForeshadowPower": {
+    "NAME": "Foreshadow",
+    "DESCRIPTIONS": [
+      "At the end of your turn, ALL enemies lose HP equal to the number of cards #yRetained this turn."
+    ]
   }
 }
