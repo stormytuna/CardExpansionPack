@@ -122,5 +122,9 @@
     "NAME": "Foreshadow",
     "DESCRIPTION": "At the end of your turn, ALL enemies lose HP equal to the number of cards Retained this turn.",
     "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, ALL enemies lose HP equal to the number of cards Retained this turn."
+  },
+  "${modID}:Prediction": {
+    "NAME": "Prediction",
+    "DESCRIPTION": "Scry !M!. NL Draw !${modID}:draw! cards."
   }
 }
