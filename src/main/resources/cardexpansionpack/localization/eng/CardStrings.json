@@ -130,5 +130,9 @@
   "${modID}:ForetellingStrike": {
     "NAME": "Foretelling Strike",
     "DESCRIPTION": "Scry !M!. NL Deal !D! damage for each card discarded."
+  },
+  "${modID}:Counterattack": {
+    "NAME": "Counterattack",
+    "DESCRIPTION": "Costs 1 less [E] for each time you Scry this turn. NL Gain !B! Block. NL Deal !D! damage."
   }
 }
