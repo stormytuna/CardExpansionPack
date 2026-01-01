@@ -170,5 +170,9 @@
   "${modID}:OnSolidGround": {
     "NAME": "On Solid Ground",
     "DESCRIPTION": "Retain. NL Gain !B! Block. NL Exhaust."
+  },
+  "${modID}:PierceTheVeil": {
+    "NAME": "Pierce the Veil",
+    "DESCRIPTION": "Whenever a card is created during combat, deal !M! damage to a random enemy."
   }
 }

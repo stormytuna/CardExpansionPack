@@ -97,5 +97,12 @@
       "Whenever you gain #yMantra, gain #b",
       " #yBlock."
     ]
+  },
+  "${modID}:PierceTheVeilPower": {
+    "NAME": "Pierce the Veil",
+    "DESCRIPTIONS": [
+      "Whenever a card is created during combat, deal #b",
+      " damage to a random enemy."
+    ]
   }
 }
