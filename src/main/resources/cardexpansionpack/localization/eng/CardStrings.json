@@ -148,5 +148,9 @@
     "NAME": "Condemn",
     "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Gain Mantra equal to the unblocked damage dealt. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain Mantra equal to the unblocked damage dealt. NL Exhaust."
+  },
+  "${modID}:ShieldOfFaith": {
+    "NAME": "Shield of Faith",
+    "DESCRIPTION": "Whenever you gain Mantra, gain !M! block."
   }
 }

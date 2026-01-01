@@ -90,5 +90,12 @@
       "At the start of your turn, enter #y",
       "Neutral"
     ]
+  },
+  "${modID}:ShieldOfFaithPower": {
+    "NAME": "Shield of Faith",
+    "DESCRIPTIONS": [
+      "Whenever you gain #yMantra, gain #b",
+      " #yBlock."
+    ]
   }
 }
