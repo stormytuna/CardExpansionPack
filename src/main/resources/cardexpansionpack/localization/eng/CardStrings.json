@@ -143,5 +143,10 @@
   "${modID}:Suppress": {
     "NAME": "Suppress",
     "DESCRIPTION": "Exit your Stance. NL Reenter the Stance you exited at the start of your next turn. NL Exhaust."
+  },
+  "${modID}:Condemn": {
+    "NAME": "Condemn",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Gain Mantra equal to the unblocked damage dealt. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain Mantra equal to the unblocked damage dealt. NL Exhaust."
   }
 }
