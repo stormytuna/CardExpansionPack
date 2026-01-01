@@ -20,11 +20,12 @@ public class EbbAndFlow extends BaseCard {
         1
     );
 
-    private static final int POWER_AMOUNT = 2;
+    private static final int POWER_AMOUNT = 1;
+    private static final int POWER_AMOUNT_UPGRADE = 1;
 
     public EbbAndFlow() {
         super(ID, INFO);
-        setInnate(false, true);
+        setMagic(POWER_AMOUNT, POWER_AMOUNT_UPGRADE);
     }
 
     @Override
@@ -34,7 +35,7 @@ public class EbbAndFlow extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(p, p, new EbbAndFlowPower(p, POWER_AMOUNT)));
+        addToBot(new ApplyPowerAction(p, p, new EbbAndFlowPower(p, magicNumber)));
     }
 }
 
