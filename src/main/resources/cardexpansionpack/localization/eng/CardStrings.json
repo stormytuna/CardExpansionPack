@@ -162,5 +162,13 @@
     "NAME": "Glimpse Future",
     "DESCRIPTION": "Ethereal. NL Add !M! *Insights into your hand. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Add !M! *Insights into your hand. NL Exhaust."
+  },
+  "${modID}:PlantFeet": {
+    "NAME": "Plant Feet",
+    "DESCRIPTION": "Gain !B! Block. NL Shuffle an *On *Solid *Ground into your draw pile."
+  },
+  "${modID}:OnSolidGround": {
+    "NAME": "On Solid Ground",
+    "DESCRIPTION": "Retain. NL Gain !B! Block. NL Exhaust."
   }
 }
