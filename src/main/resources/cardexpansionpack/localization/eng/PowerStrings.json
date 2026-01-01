@@ -83,5 +83,12 @@
       "The first #b",
       " times you #yScry each turn, draw #b1 card."
     ]
+  },
+  "${modID}:SuppressPower": {
+    "NAME": "Suppress",
+    "DESCRIPTIONS": [
+      "At the start of your turn, enter #y",
+      "Neutral"
+    ]
   }
 }

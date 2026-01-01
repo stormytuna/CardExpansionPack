@@ -139,5 +139,9 @@
     "NAME": "Ebb and Flow",
     "DESCRIPTION": "The first two times you Scry each turn, draw 1 card.",
     "UPGRADE_DESCRIPTION": "Innate. NL The first two times you Scry each turn, draw 1 card."
+  },
+  "${modID}:Suppress": {
+    "NAME": "Suppress",
+    "DESCRIPTION": "Exit your Stance. NL Reenter the Stance you exited at the start of your next turn. NL Exhaust."
   }
 }
