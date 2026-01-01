@@ -152,5 +152,10 @@
   "${modID}:ShieldOfFaith": {
     "NAME": "Shield of Faith",
     "DESCRIPTION": "Whenever you gain Mantra, gain !M! block."
+  },
+  "${modID}:SplitReality": {
+    "NAME": "Split Reality",
+    "DESCRIPTION": "Add a *Smite or *Safety into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add a *Smite or *Safety into your hand."
   }
 }
