@@ -104,5 +104,13 @@
       "Whenever a card is created during combat, deal #b",
       " damage to a random enemy."
     ]
+  },
+  "${modID}:GraspPotentialPower": {
+    "NAME": "Grasp Potential",
+    "DESCRIPTIONS": [
+      "The next colorless card you play this turn is played twice.",
+      "The next #b",
+      " colorless cards you play this turn are played twice."
+    ]
   }
 }

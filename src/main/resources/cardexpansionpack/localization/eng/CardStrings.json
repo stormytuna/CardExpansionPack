@@ -174,5 +174,9 @@
   "${modID}:PierceTheVeil": {
     "NAME": "Pierce the Veil",
     "DESCRIPTION": "Whenever a card is created during combat, deal !M! damage to a random enemy."
+  },
+  "${modID}:GraspPotential": {
+    "NAME": "Grasp Potential",
+    "DESCRIPTION": "Deal !D! damage. NL The next colorless card you play this turn is played twice."
   }
 }
