@@ -1,10 +1,10 @@
 package cardexpansionpack.cards.colorless;
 
-import com.megacrit.cardcrawl.actions.common.BetterDiscardPileToHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import cardexpansionpack.actions.SalvageAction;
 import cardexpansionpack.cards.BaseCard;
 import cardexpansionpack.util.CardStats;
 
@@ -34,6 +34,6 @@ public class Salvage extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new BetterDiscardPileToHandAction(CARDS_TO_RETRIEVE));
+        addToBot(new SalvageAction(CARDS_TO_RETRIEVE));
     }
 }
