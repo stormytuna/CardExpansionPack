@@ -207,5 +207,13 @@
   "${modID}:Feint": {
     "NAME": "Feint",
     "DESCRIPTION": "Apply !M! Vulnerable. NL Add 2 *Shivs into your hand."
+  },
+  "${modID}:BladeBarrier": {
+    "NAME": "Blade Barrier",
+    "DESCRIPTION": "Gain Block equal to the number of *Shivs played this combat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain Block equal to the number of *Shivs played this combat +3. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Gains !B! Block.)"
+    ]
   }
 }
