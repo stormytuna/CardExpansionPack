@@ -215,5 +215,9 @@
     "EXTENDED_DESCRIPTION": [
       " NL (Gains !B! Block.)"
     ]
+  },
+  "${modID}:Trickshot": {
+    "NAME": "Trickshot",
+    "DESCRIPTION": "Add !M! *Shivs into your hand. NL *Shivs now hit ALL enemies."
   }
 }

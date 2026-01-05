@@ -113,5 +113,11 @@
       "At the start of your turn, gain #b",
       " #yDexterity."
     ]
+  },
+  "${modID}:TrickshotPower": {
+    "NAME": "Trickshot",
+    "DESCRIPTIONS": [
+      "#yShivs now hit ALL enemies."
+    ]
   }
 }
