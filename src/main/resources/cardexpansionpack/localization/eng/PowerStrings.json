@@ -106,5 +106,12 @@
       "The next #b",
       " colorless cards you play this turn are played twice."
     ]
+  },
+  "${modID}:UncannyDodgePower": {
+    "NAME": "Uncanny Dodge",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yDexterity."
+    ]
   }
 }
