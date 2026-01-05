@@ -203,5 +203,9 @@
     "NAME": "Trace",
     "DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, put a card from your discard pile into your hand.",
     "UPGRADE_DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, put !M! cards from your discard pile into your hand."
+  },
+  "${modID}:Feint": {
+    "NAME": "Feint",
+    "DESCRIPTION": "Apply !M! Vulnerable. NL Add 2 *Shivs into your hand."
   }
 }
