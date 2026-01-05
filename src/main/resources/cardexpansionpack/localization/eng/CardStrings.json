@@ -194,5 +194,9 @@
   "${modID}:Smokescreen": {
     "NAME": "Smokescreen",
     "DESCRIPTION": "Discard any number of cards. NL Gain !B! Block for each card discarded."
+  },
+  "${modID}:Blindside": {
+    "NAME": "Blindside",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you discard a card, return this card from the discard pile to your Hand."
   }
 }
