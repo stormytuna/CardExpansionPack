@@ -32,6 +32,11 @@ public class GraspPotentialPower extends BasePower {
     }
 
     @Override
+    public void atEndOfTurn(boolean isPlayer) {
+        addToTop(new RemoveSpecificPowerAction(owner, owner, this));
+    }
+
+    @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
         if (card.color == CardColor.COLORLESS && !card.purgeOnUse && amount > 0) {
             flash();
