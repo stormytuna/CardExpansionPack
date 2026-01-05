@@ -58,12 +58,6 @@
       " times."
     ]
   },
-  "${modID}:AmbrosiaPower": {
-    "NAME": "Ambrosia",
-    "DESCRIPTIONS": [
-      "Whenever you draw a card, #yUpgrade it."
-    ]
-  },
   "${modID}:RadiancePower": {
     "NAME": "Radiance",
     "DESCRIPTIONS": [
