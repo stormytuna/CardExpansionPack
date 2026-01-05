@@ -190,5 +190,9 @@
   "${modID}:UncannyDodge": {
     "NAME": "Uncanny Dodge",
     "DESCRIPTION": "At the start of your turn, gain !M! Dexterity."
+  },
+  "${modID}:Smokescreen": {
+    "NAME": "Smokescreen",
+    "DESCRIPTION": "Discard any number of cards. NL Gain !B! Block for each card discarded."
   }
 }
