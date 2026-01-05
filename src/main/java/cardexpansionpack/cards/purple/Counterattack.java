@@ -13,7 +13,6 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
-import cardexpansionpack.CardExpansionPack;
 import cardexpansionpack.cards.BaseCard;
 import cardexpansionpack.util.CardStats;
 
@@ -23,7 +22,7 @@ public class Counterattack extends BaseCard {
     private static final CardStats INFO = new CardStats(
         CardColor.PURPLE,
         CardType.ATTACK,
-        CardRarity.COMMON,
+        CardRarity.UNCOMMON,
         CardTarget.ENEMY,
         3
     );
