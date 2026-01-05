@@ -1,7 +1,2 @@
 {
-  "${modID}:Smokescreen": {
-    "TEXT": [
-      "Choose any number of cards to discard."
-    ]
-  }
 }
