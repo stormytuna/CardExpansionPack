@@ -178,5 +178,9 @@
   "${modID}:GraspPotential": {
     "NAME": "Grasp Potential",
     "DESCRIPTION": "Deal !D! damage. NL The next colorless card you play this turn is played twice."
+  },
+  "${modID}:DuckAndWeave": {
+    "NAME": "Duck and Weave",
+    "DESCRIPTION": "Gain !B! Block !M! times."
   }
 }
