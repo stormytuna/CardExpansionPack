@@ -27,7 +27,7 @@ public class ForetellingStrike extends BaseCard {
         2
     );
 
-    private static final int SCRY = 2;
+    private static final int SCRY = 3;
     private static final int SCRY_UPGRADE = 1;
     private static final int DAMAGE = 5;
 
