@@ -182,5 +182,9 @@
   "${modID}:DuckAndWeave": {
     "NAME": "Duck and Weave",
     "DESCRIPTION": "Gain !B! Block !M! times."
+  },
+  "${modID}:Juke": {
+    "NAME": "Juke",
+    "DESCRIPTION": "Gain !M! Dexterity. NL At the end of this turn, lose !M! Dexterity."
   }
 }
