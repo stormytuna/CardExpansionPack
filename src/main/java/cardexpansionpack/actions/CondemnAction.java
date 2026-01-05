@@ -34,7 +34,13 @@ public class CondemnAction extends AbstractGameAction {
             AbstractDungeon.effectList.add(new FlashAtkImgEffect(target.hb.cX, target.hb.cY, AttackEffect.BLUNT_HEAVY, false));
             target.damage(info);
             if (target.lastDamageTaken > 0) {
-                addToTop(new ApplyPowerAction(source, source, new MantraPower(source, target.lastDamageTaken)));
+                if (target.lastDamageTaken > 1) {
+                    addToTop(new ApplyPowerAction(source, source, new MantraPower(source, target.lastDamageTaken - 1)));
+                }
+
+                // Mantra applies divinity only when stacked, so we apply twice
+                //   in case player goes from 0 to 10
+                addToTop(new ApplyPowerAction(source, source, new MantraPower(source, 1)));
             }
 
             if (AbstractDungeon.getCurrRoom().monsters.areMonstersBasicallyDead()) {
