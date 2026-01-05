@@ -198,5 +198,10 @@
   "${modID}:Blindside": {
     "NAME": "Blindside",
     "DESCRIPTION": "Deal !D! damage. NL Whenever you discard a card, return this card from the discard pile to your Hand."
+  },
+  "${modID}:Trace": {
+    "NAME": "Trace",
+    "DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, put a card from your discard pile into your hand.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, put !M! cards from your discard pile into your hand."
   }
 }

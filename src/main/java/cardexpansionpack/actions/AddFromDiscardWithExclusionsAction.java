@@ -1,6 +1,8 @@
 package cardexpansionpack.actions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -12,12 +14,18 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import basemod.BaseMod;
-import cardexpansionpack.cards.colorless.Salvage;
 
-public class SalvageAction extends AbstractGameAction {
+public class AddFromDiscardWithExclusionsAction extends AbstractGameAction {
     public static final String[] TEXT = (CardCrawlGame.languagePack.getUIString("BetterToHandAction")).TEXT;
 
-    public SalvageAction(int count) {
+    private final HashSet<String> exclusionIds;
+
+    public AddFromDiscardWithExclusionsAction(int count, String exclusionId) {
+        this(count, new HashSet<String>(Arrays.asList(new String[] {exclusionId})));
+    }
+
+    public AddFromDiscardWithExclusionsAction(int count, HashSet<String> exclusionIds) {
+        this.exclusionIds = exclusionIds;
         amount = count;
         actionType = ActionType.CARD_MANIPULATION;
         duration = startDuration = Settings.ACTION_DUR_FAST;
@@ -56,7 +64,7 @@ public class SalvageAction extends AbstractGameAction {
         CardGroup cards = new CardGroup(CardGroupType.UNSPECIFIED);
 
         for (AbstractCard c : AbstractDungeon.player.discardPile.group) {
-            if (c.cardID.equals(Salvage.ID)) {
+            if (exclusionIds.contains(c.cardID)) {
                 continue;
             }
 

@@ -1,10 +1,12 @@
 package cardexpansionpack.cards.colorless;
 
+
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import cardexpansionpack.actions.SalvageAction;
+import cardexpansionpack.CardExpansionPack;
+import cardexpansionpack.actions.AddFromDiscardWithExclusionsAction;
 import cardexpansionpack.cards.BaseCard;
 import cardexpansionpack.util.CardStats;
 
@@ -34,6 +36,8 @@ public class Salvage extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SalvageAction(CARDS_TO_RETRIEVE));
+        CardExpansionPack.logger.info("i am here");
+        addToBot(new AddFromDiscardWithExclusionsAction(CARDS_TO_RETRIEVE, ID));
+        CardExpansionPack.logger.info("i am queer");
     }
 }
