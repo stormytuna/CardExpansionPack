@@ -248,5 +248,9 @@
   "${modID}:SanguineShield": {
     "NAME": "Sanguine Shield",
     "DESCRIPTION": "Lose 2 HP. NL Gain !B! Block."
+  },
+  "${modID}:FiendishVigor": {
+    "NAME": "Fiendish Vigor",
+    "DESCRIPTION": "Lose 4 HP. NL Gain !M! Regen. NL Exhaust."
   }
 }
