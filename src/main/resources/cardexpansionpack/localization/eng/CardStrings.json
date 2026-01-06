@@ -242,7 +242,7 @@
     "DESCRIPTION": "Gain 1 Strength for every !M! cards in your Exhaust pile. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       " NL (Gains ",
-        " Strength)"
+        " Strength.)"
     ]
   },
   "${modID}:SanguineShield": {
@@ -252,5 +252,20 @@
   "${modID}:FiendishVigor": {
     "NAME": "Fiendish Vigor",
     "DESCRIPTION": "Lose 4 HP. NL Gain !M! Regen. NL Exhaust."
+  },
+  "${modID}:BloodPact": {
+    "NAME": "Blood Pact",
+    "DESCRIPTION": "Whenever you lose HP, the enemy loses the same amount of HP. NL Exhaust."
+  },
+  "${modID}:LastResort": {
+    "NAME": "Last Resort",
+    "DESCRIPTION": "Deal damage equal to your missing HP. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deals !D! damage.)"
+    ]
+  },
+  "${modID}:RecklessAbandon": {
+    "NAME": "Reckless Abandon",
+    "DESCRIPTION": "Draw !M! cards. NL Add 2 *Dazed to the top of your draw pile."
   }
 }

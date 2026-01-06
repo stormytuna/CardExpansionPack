@@ -127,5 +127,17 @@
       "At the start of your turn, #yUpgrade #b",
       " random cards in your hand for the rest of combat."
     ]
+  },
+  "${modID}:BloodPactPlayerPower": {
+    "NAME": "Blood Pact",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP, enemies with #yBlood #yPact lose the same amount of HP."
+    ]
+  },
+  "${modID}:BloodPactMonsterPower": {
+    "NAME": "Blood Pact",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP, this enemy loses the same amount of HP."
+    ]
   }
 }
