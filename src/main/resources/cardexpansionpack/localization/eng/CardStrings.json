@@ -244,5 +244,9 @@
       " NL (Gains ",
         " Strength)"
     ]
+  },
+  "${modID}:SanguineShield": {
+    "NAME": "Sanguine Shield",
+    "DESCRIPTION": "Lose 2 HP. NL Gain !B! Block."
   }
 }
