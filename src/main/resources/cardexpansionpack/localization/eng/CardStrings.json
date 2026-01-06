@@ -228,5 +228,9 @@
     "NAME": "Hone Blade",
     "DESCRIPTION": "At the start of your turn, Upgrade a random card in your hand for the rest of combat.",
     "UPGRADE_DESCRIPTION": "At the start of your turn, Upgrade !M! random cards in your hand for the rest of combat."
+  },
+  "${modID}:LashOut": {
+    "NAME": "Lash Out",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Whenever you Exhaust this card, return it to your hand and increase its hits by 1 this combat."
   }
 }
