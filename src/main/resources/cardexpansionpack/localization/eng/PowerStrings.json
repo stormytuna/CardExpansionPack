@@ -139,5 +139,13 @@
     "DESCRIPTIONS": [
       "Whenever you lose HP, this enemy loses the same amount of HP."
     ]
+  },
+  "${modID}:ManiaPower": {
+    "NAME": "Mania",
+    "DESCRIPTIONS": [
+      "Whenever you play an Attack card, reduce the cost of a random attack card in your hand by #b1 for the turn.",
+      "Whenever you play an Attack card, reduce the cost of a random attack card in your hand by #b1 for the turn #b",
+      " times."
+    ]
   }
 }

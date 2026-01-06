@@ -4,6 +4,7 @@ import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.interfaces.AddAudioSubscriber;
 import basemod.interfaces.EditCardsSubscriber;
+import basemod.interfaces.EditKeywordsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostInitializeSubscriber;
 import cardexpansionpack.cards.BaseCard;
@@ -21,20 +22,24 @@ import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.ModInfo;
 import com.evacipated.cardcrawl.modthespire.Patcher;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.*;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.scannotation.AnnotationDB;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 @SpireInitializer
 public class CardExpansionPack implements
         EditCardsSubscriber,
         EditStringsSubscriber,
+        EditKeywordsSubscriber,
         AddAudioSubscriber,
         PostInitializeSubscriber {
     public static ModInfo info;
@@ -226,6 +231,41 @@ public class CardExpansionPack implements
         }
         else {
             throw new RuntimeException("Failed to determine mod info/ID based on initializer.");
+        }
+    }
+
+    @Override
+    public void receiveEditKeywords() {
+        Gson gson = new Gson();
+        String json = Gdx.files.internal(localizationPath(defaultLanguage, "Keywords.json")).readString(String.valueOf(StandardCharsets.UTF_8));
+        KeywordInfo[] keywords = gson.fromJson(json, KeywordInfo[].class);
+        for (KeywordInfo keyword : keywords) {
+            keyword.prep();
+            registerKeyword(keyword);
+        }
+
+        if (!defaultLanguage.equals(getLangString())) {
+            try
+            {
+                json = Gdx.files.internal(localizationPath(getLangString(), "Keywords.json")).readString(String.valueOf(StandardCharsets.UTF_8));
+                keywords = gson.fromJson(json, KeywordInfo[].class);
+                for (KeywordInfo keyword : keywords) {
+                    keyword.prep();
+                    registerKeyword(keyword);
+                }
+            }
+            catch (Exception e)
+            {
+                logger.warn(modID + " does not support " + getLangString() + " keywords.");
+            }
+        }
+    }
+
+    private void registerKeyword(KeywordInfo info) {
+        BaseMod.addKeyword(modID.toLowerCase(), info.PROPER_NAME, info.NAMES, info.DESCRIPTION, info.COLOR);
+        if (!info.ID.isEmpty())
+        {
+            keywords.put(info.ID, info);
         }
     }
 }
