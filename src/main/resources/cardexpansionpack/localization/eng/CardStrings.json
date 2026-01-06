@@ -232,5 +232,9 @@
   "${modID}:LashOut": {
     "NAME": "Lash Out",
     "DESCRIPTION": "Deal !D! damage !M! times. NL Whenever you Exhaust this card, return it to your hand and increase its hits by 1 this combat."
+  },
+  "${modID}:Tenacity": {
+    "NAME": "Tenacity",
+    "DESCRIPTION": "Costs 1 less [E] for each card exhausted this combat. NL Gain !B! Block."
   }
 }
