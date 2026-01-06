@@ -119,5 +119,13 @@
     "DESCRIPTIONS": [
       "#yShivs now hit ALL enemies."
     ]
+  },
+  "${modID}:HoneBladePower": {
+    "NAME": "Hone Blade",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #yUpgrade a random card in your hand for the rest of combat.",
+      "At the start of your turn, #yUpgrade #b",
+      " random cards in your hand for the rest of combat."
+    ]
   }
 }

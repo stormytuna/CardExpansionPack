@@ -219,5 +219,14 @@
   "${modID}:Trickshot": {
     "NAME": "Trickshot",
     "DESCRIPTION": "Add !M! *Shivs into your hand. NL *Shivs now hit ALL enemies."
+  },
+  "${modID}:Relentless": {
+    "NAME": "Relentless",
+    "DESCRIPTION": "Deal !D! damage. NL At the start of your turn, return this card from the discard pile to your hand."
+  },
+  "${modID}:HoneBlade": {
+    "NAME": "Hone Blade",
+    "DESCRIPTION": "At the start of your turn, Upgrade a random card in your hand for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, Upgrade !M! random cards in your hand for the rest of combat."
   }
 }
