@@ -289,5 +289,19 @@
   "${modID}:Overpower": {
     "NAME": "Overpower",
     "DESCRIPTION": "Whenever you gain Block this turn, apply !M! Vulnerable to ALL enemies. NL Exhaust."
+  },
+  "${modID}:PoisonDart": {
+    "NAME": "Poison Dart",
+    "DESCRIPTION": "Apply !M! Poison."
+  },
+  "${modID}:ToxicSmog": {
+    "NAME": "Toxic Smog",
+    "DESCRIPTION": "Apply !M! Poison to ALL enemies X times",
+    "UPGRADE_DESCRIPTION": "Apply !M! Poison to ALL enemies X+1 times"
+  },
+  "${modID}:NerveGas": {
+    "NAME": "Nerve Gas",
+    "DESCRIPTION": "ALL enemies lose 1 Strength for each unique debuff they have. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ALL enemies lose 1 Strength for each unique debuff they have +1. NL Exhaust."
   }
 }
