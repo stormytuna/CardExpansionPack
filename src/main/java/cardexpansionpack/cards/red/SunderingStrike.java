@@ -30,6 +30,7 @@ public class SunderingStrike extends BaseCard {
         setDamage(DAMAGE, DAMAGE_UPGRADE);
         setMagic(DAMAGE_PER_ENERGY);
         setExhaust(true);
+        tags.add(CardTags.STRIKE);
     }
 
     @Override

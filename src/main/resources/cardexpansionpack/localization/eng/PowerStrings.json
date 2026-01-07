@@ -154,5 +154,12 @@
       "Whenever a Status card is created, gain #b",
       " #yBlock."
     ]
+  },
+  "${modID}:OverpowerPower": {
+    "NAME": "Overpower",
+    "DESCRIPTIONS": [
+      "Whenever you gain Block this turn, apply #b",
+      " #yVulnerable to ALL enemies."
+    ]
   }
 }

@@ -32,6 +32,7 @@ public class FiendishVigor extends BaseCard {
         setCostUpgrade(0);
         setMagic(REGEN_AMOUNT);
         setExhaust(true);
+        tags.add(CardTags.HEALING);
     }
 
     @Override
