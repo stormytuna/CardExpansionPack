@@ -6,13 +6,13 @@ import com.megacrit.cardcrawl.powers.DexterityPower;
 
 import cardexpansionpack.CardExpansionPack;
 
-public class UncannyDodgePower extends BasePower {
-    public static final String ID = CardExpansionPack.makeID("UncannyDodgePower");
+public class EvasionPower extends BasePower {
+    public static final String ID = CardExpansionPack.makeID("EvasionPower");
 
     private static final PowerType TYPE = PowerType.BUFF;
     private static final boolean TURN_BASED = false;
 
-    public UncannyDodgePower(AbstractCreature owner, int amount) {
+    public EvasionPower(AbstractCreature owner, int amount) {
         super(ID, TYPE, TURN_BASED, owner, amount);
     }
 

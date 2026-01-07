@@ -6,11 +6,11 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import cardexpansionpack.cards.BaseCard;
-import cardexpansionpack.powers.UncannyDodgePower;
+import cardexpansionpack.powers.EvasionPower;
 import cardexpansionpack.util.CardStats;
 
-public class UncannyDodge extends BaseCard {
-    public static final String ID = makeID("UncannyDodge");
+public class Evasion extends BaseCard {
+    public static final String ID = makeID("Evasion");
 
     private static final CardStats INFO = new CardStats(
         CardColor.GREEN,
@@ -23,18 +23,18 @@ public class UncannyDodge extends BaseCard {
     private static final int DEX = 2;
     private static final int DEX_UPGRADE = 1;
 
-    public UncannyDodge() {
+    public Evasion() {
         super(ID, INFO);
         setMagic(DEX, DEX_UPGRADE);
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new UncannyDodge();
+        return new Evasion();
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(p, p, new UncannyDodgePower(p, magicNumber)));
+        addToBot(new ApplyPowerAction(p, p, new EvasionPower(p, magicNumber)));
     }
 }

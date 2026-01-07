@@ -107,8 +107,8 @@
       " colorless cards you play this turn are played twice."
     ]
   },
-  "${modID}:UncannyDodgePower": {
-    "NAME": "Uncanny Dodge",
+  "${modID}:EvasionPower": {
+    "NAME": "Evasion",
     "DESCRIPTIONS": [
       "At the start of your turn, gain #b",
       " #yDexterity."
