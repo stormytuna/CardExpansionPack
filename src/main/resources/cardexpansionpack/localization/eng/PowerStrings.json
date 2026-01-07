@@ -147,5 +147,12 @@
       "Whenever you play an Attack card, reduce the cost of a random attack card in your hand by #b1 for the turn #b",
       " times."
     ]
+  },
+  "${modID}:CallousedPower": {
+    "NAME": "Calloused",
+    "DESCRIPTIONS": [
+      "Whenever a Status card is created, gain #b",
+      " #yBlock."
+    ]
   }
 }

@@ -276,5 +276,10 @@
   "${modID}:Beatdown": {
     "NAME": "Beatdown",
     "DESCRIPTION": "Deal !D! damage !M! times. Hits 1 additional time for each Status card in your hand."
+  },
+  "${modID}:Calloused": {
+    "NAME": "Calloused",
+    "DESCRIPTION": "Whenever a Status card is created during combat, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever a Status card is created during combat, gain !M! Block."
   }
 }
