@@ -272,5 +272,9 @@
     "NAME": "Mania",
     "DESCRIPTION": "Ethereal. NL Gain 1 ${modID}:Hex. NL Whenever you play an Attack card, reduce the cost of a random Attack card in your hand by 1 for the turn.",
     "UPGRADE_DESCRIPTION": "Gain 1 ${modID}:Hex. NL Whenever you play an Attack card, reduce the cost of a random Attack card in your hand by 1 for the turn."
+  },
+  "${modID}:Beatdown": {
+    "NAME": "Beatdown",
+    "DESCRIPTION": "Deal !D! damage !M! times. Hits 1 additional time for each Status card in your hand."
   }
 }
