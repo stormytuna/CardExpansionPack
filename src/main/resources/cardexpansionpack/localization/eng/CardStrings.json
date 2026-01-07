@@ -281,5 +281,9 @@
     "NAME": "Calloused",
     "DESCRIPTION": "Whenever a Status card is created during combat, gain !M! Block.",
     "UPGRADE_DESCRIPTION": "Innate. NL Whenever a Status card is created during combat, gain !M! Block."
+  },
+  "${modID}:SunderingStrike": {
+    "NAME": "Sundering Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Gain [E] for each !M! unblocked damage dealt. NL Exhaust."
   }
 }
