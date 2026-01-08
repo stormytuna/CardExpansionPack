@@ -303,5 +303,10 @@
     "NAME": "Nerve Gas",
     "DESCRIPTION": "ALL enemies lose 1 Strength for each unique debuff they have. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "ALL enemies lose 1 Strength for each unique debuff they have +1. NL Exhaust."
+  },
+  "${modID}:UnderhandedTactics": {
+    "NAME": "Underhanded Tactics",
+    "DESCRIPTION": "The first time you apply a debuff each turn, draw 1 card.",
+    "UPGRADE_DESCRIPTION": "The first two times you apply a debuff each turn, draw 1 card."
   }
 }

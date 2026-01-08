@@ -161,5 +161,13 @@
       "Whenever you gain Block this turn, apply #b",
       " #yVulnerable to ALL enemies."
     ]
+  },
+  "${modID}:UnderhandedTacticsPower": {
+    "NAME": "Underhanded Tactics",
+    "DESCRIPTIONS": [
+      "The first time you apply a debuff each turn, draw #b1 card.",
+      "The first #b",
+      " times you apply a debuff each turn, draw #b1 card."
+    ]
   }
 }
