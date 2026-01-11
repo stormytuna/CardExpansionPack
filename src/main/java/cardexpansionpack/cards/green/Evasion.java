@@ -14,7 +14,7 @@ public class Evasion extends BaseCard {
 
     private static final CardStats INFO = new CardStats(
         CardColor.GREEN,
-        CardType.SKILL,
+        CardType.POWER,
         CardRarity.RARE,
         CardTarget.SELF,
         3
