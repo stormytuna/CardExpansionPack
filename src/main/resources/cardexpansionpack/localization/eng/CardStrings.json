@@ -308,5 +308,9 @@
     "NAME": "Underhanded Tactics",
     "DESCRIPTION": "The first time you apply a debuff each turn, draw 1 card.",
     "UPGRADE_DESCRIPTION": "The first two times you apply a debuff each turn, draw 1 card."
+  },
+  "${modID}:Polish": {
+    "NAME": "Polish",
+    "DESCRIPTION": "Upgrade !M! cards in your hand for the rest of combat."
   }
 }
