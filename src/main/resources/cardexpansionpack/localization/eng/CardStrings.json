@@ -312,5 +312,9 @@
   "${modID}:Polish": {
     "NAME": "Polish",
     "DESCRIPTION": "Upgrade !M! cards in your hand for the rest of combat."
+  },
+  "${modID}:SneakAttack": {
+    "NAME": "Sneak Attack",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Dexterity affects this card's damage."
   }
 }
