@@ -45,7 +45,7 @@ public class Relentless extends BaseCard {
         addToBot(new DamageAction(m, info, AttackEffect.BLUNT_HEAVY));
     }
     
-    @SpirePatch2(clz = AbstractPlayer.class, method = "applyStartOfTurnRelics")
+    @SpirePatch2(clz = AbstractPlayer.class, method = "applyStartOfTurnPostDrawRelics")
     public static class AddBackReckless {
         @SpirePostfixPatch
         public static void patch(AbstractPlayer __instance) {

@@ -8,6 +8,11 @@ import basemod.interfaces.EditKeywordsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostInitializeSubscriber;
 import cardexpansionpack.cards.BaseCard;
+import cardexpansionpack.cards.blue.*;
+import cardexpansionpack.cards.colorless.*;
+import cardexpansionpack.cards.green.*;
+import cardexpansionpack.cards.purple.*;
+import cardexpansionpack.cards.red.*;
 import cardexpansionpack.util.GeneralUtils;
 import cardexpansionpack.util.KeywordInfo;
 import cardexpansionpack.util.Sounds;
@@ -22,9 +27,15 @@ import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.ModInfo;
 import com.evacipated.cardcrawl.modthespire.Patcher;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+import com.evacipated.cardcrawl.modthespire.lib.SpirePatch2;
+import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
 import com.google.gson.Gson;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.cards.CardGroup.CardGroupType;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.neow.NeowRoom;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,6 +44,7 @@ import org.scannotation.AnnotationDB;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.nio.charset.StandardCharsets;
+import java.text.Bidi;
 import java.util.*;
 
 @SpireInitializer
@@ -267,5 +279,117 @@ public class CardExpansionPack implements
         {
             keywords.put(info.ID, info);
         }
+    }
+
+    @SpirePatch2(clz = NeowRoom.class, method = "update")
+    public static class SpawnCardsForShowcase {
+        @SpirePostfixPatch
+        public static void patch() {
+            if (true) {
+                return;
+            }
+
+            ArrayList<AbstractCard> cards = new ArrayList<>();
+            
+            addSelfAndUpgradedCopy(new Beatdown(), cards);
+            addSelfAndUpgradedCopy(new Relentless(), cards);
+            addSelfAndUpgradedCopy(new SanguineShield(), cards);
+
+            addSelfAndUpgradedCopy(new BloodPact(), cards);
+            addSelfAndUpgradedCopy(new Calloused(), cards);
+            addSelfAndUpgradedCopy(new HoneBlade(), cards);
+            addSelfAndUpgradedCopy(new LashOut(), cards);
+            addSelfAndUpgradedCopy(new Overpower(), cards);
+            addSelfAndUpgradedCopy(new RecklessAbandon(), cards);
+            addSelfAndUpgradedCopy(new SunderingStrike(), cards);
+            addSelfAndUpgradedCopy(new Tenacity(), cards);
+
+            addSelfAndUpgradedCopy(new FiendishVigor(), cards);
+            addSelfAndUpgradedCopy(new LashOut(), cards);
+            addSelfAndUpgradedCopy(new Mania(), cards);
+            addSelfAndUpgradedCopy(new Pyre(), cards);
+
+            addSelfAndUpgradedCopy(new DuckAndWeave(), cards);
+            addSelfAndUpgradedCopy(new Juke(), cards);
+            addSelfAndUpgradedCopy(new PoisonDart(), cards);
+            addSelfAndUpgradedCopy(new Polish(), cards);
+            addSelfAndUpgradedCopy(new Smokescreen(), cards);
+
+            addSelfAndUpgradedCopy(new BladeBarrier(), cards);
+            addSelfAndUpgradedCopy(new Blindside(), cards);
+            addSelfAndUpgradedCopy(new Feint(), cards);
+            addSelfAndUpgradedCopy(new NerveGas(), cards);
+            addSelfAndUpgradedCopy(new SneakAttack(), cards);
+            addSelfAndUpgradedCopy(new ToxicSmog(), cards);
+            addSelfAndUpgradedCopy(new Trace(), cards);
+
+            addSelfAndUpgradedCopy(new Evasion(), cards);
+            addSelfAndUpgradedCopy(new Trickshot(), cards);
+            addSelfAndUpgradedCopy(new UnderhandedTactics(), cards);
+
+            addSelfAndUpgradedCopy(new Dequeue(), cards);
+            addSelfAndUpgradedCopy(new Malware(), cards);
+            addSelfAndUpgradedCopy(new Ping(), cards);
+            addSelfAndUpgradedCopy(new Polarization(), cards);
+
+            addSelfAndUpgradedCopy(new Cryogenics(), cards);
+            addSelfAndUpgradedCopy(new EventHorizon(), cards);
+            addSelfAndUpgradedCopy(new Firewall(), cards);
+            addSelfAndUpgradedCopy(new HardLightBarrier(), cards);
+            addSelfAndUpgradedCopy(new Iteration(), cards);
+            addSelfAndUpgradedCopy(new PowerCell(), cards);
+            addSelfAndUpgradedCopy(new TrialAndError(), cards);
+            addSelfAndUpgradedCopy(new TunnelVision(), cards);
+
+            addSelfAndUpgradedCopy(new BetaTesting(), cards);
+            addSelfAndUpgradedCopy(new HeadsUpDisplay(), cards);
+            addSelfAndUpgradedCopy(new RNG(), cards);
+
+            addSelfAndUpgradedCopy(new ForetellingStrike(), cards);
+            addSelfAndUpgradedCopy(new GraspPotential(), cards);
+            addSelfAndUpgradedCopy(new SplitReality(), cards);
+
+            addSelfAndUpgradedCopy(new Counterattack(), cards);
+            addSelfAndUpgradedCopy(new FollowThrough(), cards);
+            addSelfAndUpgradedCopy(new Foreshadow(), cards);
+            addSelfAndUpgradedCopy(new GlimpseFuture(), cards);
+            addSelfAndUpgradedCopy(new Patience(), cards);
+            addSelfAndUpgradedCopy(new PierceTheVeil(), cards);
+            addSelfAndUpgradedCopy(new PlantFeet(), cards);
+            addSelfAndUpgradedCopy(new OnSolidGround(), cards);
+            addSelfAndUpgradedCopy(new Prediction(), cards);
+            addSelfAndUpgradedCopy(new ShieldOfFaith(), cards);
+
+            addSelfAndUpgradedCopy(new Condemn(), cards);
+            addSelfAndUpgradedCopy(new EbbAndFlow(), cards);
+            addSelfAndUpgradedCopy(new Suppress(), cards);
+
+            addSelfAndUpgradedCopy(new Ambrosia(), cards);
+            addSelfAndUpgradedCopy(new Bide(), cards);
+            addSelfAndUpgradedCopy(new Salvage(), cards);
+            addSelfAndUpgradedCopy(new Stockpile(), cards);
+            addSelfAndUpgradedCopy(new Zeal(), cards);
+
+            addSelfAndUpgradedCopy(new ArcaneWard(), cards);
+            addSelfAndUpgradedCopy(new Dispel(), cards);
+            addSelfAndUpgradedCopy(new HiddenCache(), cards);
+            addSelfAndUpgradedCopy(new Jackpot(), cards);
+            addSelfAndUpgradedCopy(new Radiance(), cards);
+
+            CardGroup cardGroup = new CardGroup(CardGroupType.UNSPECIFIED);
+            for (AbstractCard card : cards) {
+                cardGroup.addToTop(card);
+            }
+
+            BaseMod.openCustomGridScreen(cardGroup, 1, "", x -> {});
+        }
+
+		private static void addSelfAndUpgradedCopy(AbstractCard card, ArrayList<AbstractCard> cards) {
+			AbstractCard upgrade = card.makeCopy();
+			upgrade.upgrade();
+
+            cards.add(card);
+			cards.add(upgrade);
+		}
     }
 }
