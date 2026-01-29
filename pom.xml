@@ -28,8 +28,9 @@
     <!-- Avoid using \ in this description, as they can cause the description to fail to load. -->
     <!-- If you really want to use them, you'll need to "escape" them by putting another one in front, like \\ -->
     <description>
-        Adds some cards to the game.
-        Currently finished: Defect, Watcher, Colorless
+        - Adds 70 new cards
+        - 15 new cards for each character, expanding gimmicks that have fewer cards in them
+        - 10 new colorless cards
     </description>
 
     <!--You shouldn't need to change anything below this point, but feel free to look at it.-->
