@@ -1,0 +1,17 @@
+[h2]TLDR[/h2]
+
+- Adds 70 new cards
+- 15 new cards for each character, expanding gimmicks that have fewer cards in them
+- 10 new colorless cards
+
+[hr][/hr]
+
+[h2]Credits[/h2]
+- Typhlosionater for ideas and playtesting
+- PopleZoo for playtesting
+
+[hr][/hr]
+
+Source code: https://github.com/stormytuna/CardExpansionPack
+
+If you enjoy my work, [url=https://ko-fi.com/stormytuna]please consider donating[/url]
